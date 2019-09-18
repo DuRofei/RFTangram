@@ -1,0 +1,63 @@
+{
+  "name": "RFTangram",
+  "version": "0.1.0",
+  "summary": "a alibaba framework demo",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DuRofei/RFTangram",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DuRofei": "982799080@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/DuRofei/RFTangram.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": "RFTangram/Classes/RFTangram/Resources/*.{plist,out}",
+  "source_files": "RFTangram/Classes/RFTangram/**/*.{h,m}",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 5.1.1"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "RFVirtualView",
+      "source_files": "RFTangram/Classes/RFVirtualView/**/*",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 5.1.1"
+        ]
+      },
+      "public_header_files": "RFTangram/Classes/RFVirtualView/**/*.h",
+      "subspecs": [
+        {
+          "name": "RFTMUtils",
+          "source_files": "RFTangram/Classes/RFTMUtils/**/*"
+        }
+      ]
+    },
+    {
+      "name": "RFLazyScrollView",
+      "source_files": "RFTangram/Classes/RFLazyScrollView/**/*",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 5.1.1"
+        ]
+      },
+      "public_header_files": "RFTangram/Classes/RFLazyScrollView/*.h",
+      "subspecs": [
+        {
+          "name": "RFTMUtils",
+          "source_files": "RFTangram/Classes/RFTMUtils/**/*",
+          "public_header_files": "RFTangram/Classes/RFLazyScrollView/RFTMUtils/**/*.h"
+        }
+      ]
+    }
+  ]
+}

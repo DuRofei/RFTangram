@@ -1,0 +1,45 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RFTangram (0.1.0):
+    - RFTangram/RFLazyScrollView (= 0.1.0)
+    - RFTangram/RFVirtualView (= 0.1.0)
+    - SDWebImage (~> 5.1.1)
+  - RFTangram/RFLazyScrollView (0.1.0):
+    - RFTangram/RFLazyScrollView/RFTMUtils (= 0.1.0)
+    - SDWebImage (~> 5.1.1)
+  - RFTangram/RFLazyScrollView/RFTMUtils (0.1.0):
+    - SDWebImage (~> 5.1.1)
+  - RFTangram/RFVirtualView (0.1.0):
+    - RFTangram/RFVirtualView/RFTMUtils (= 0.1.0)
+    - SDWebImage (~> 5.1.1)
+  - RFTangram/RFVirtualView/RFTMUtils (0.1.0):
+    - SDWebImage (~> 5.1.1)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - RFTangram (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  RFTangram:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RFTangram: 3f93a193a13126ffbda7eeeaf0791f8225867258
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+
+PODFILE CHECKSUM: c705502c092af061c935744770826d26970989f6
+
+COCOAPODS: 1.7.0.rc.1

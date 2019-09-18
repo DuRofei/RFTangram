@@ -1,0 +1,6 @@
+framework module RFTangram {
+  umbrella header "RFTangram-umbrella.h"
+
+  export *
+  module * { export * }
+}

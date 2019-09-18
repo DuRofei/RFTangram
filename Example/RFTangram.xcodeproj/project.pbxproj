@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42A5DF6916642693142734A8 /* Pods_RFTangram_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8CC4B7D99A214463E19B61 /* Pods_RFTangram_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RFAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RFViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9A8F0B4BA639E181ECA1F2B0 /* Pods_RFTangram_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD17EE697575BDD8230C3854 /* Pods_RFTangram_Tests.framework */; };
+		83A4F8C152C0BCE3E65EC56A /* libPods-RFTangram_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F22279837FD0CFFB8244561 /* libPods-RFTangram_Example.a */; };
+		91647289DB1FB265D7C8E62A /* libPods-RFTangram_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B9E5D3ED30C5DA04D4E1D1 /* libPods-RFTangram_Tests.a */; };
+		981B2D9E23322AB1009E46F9 /* MockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D8A23322AB1009E46F9 /* MockViewController.m */; };
+		981B2D9F23322AB1009E46F9 /* EntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D8B23322AB1009E46F9 /* EntryTableViewController.m */; };
+		981B2DA023322AB1009E46F9 /* TangramSingleImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D8F23322AB1009E46F9 /* TangramSingleImageElement.m */; };
+		981B2DA123322AB1009E46F9 /* TangramSimpleTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D9023322AB1009E46F9 /* TangramSimpleTextElement.m */; };
+		981B2DA223322AB1009E46F9 /* TangramMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 981B2D9423322AB1009E46F9 /* TangramMock.json */; };
+		981B2DA323322AB1009E46F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D9523322AB1009E46F9 /* main.m */; };
+		981B2DA423322AB1009E46F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D9623322AB1009E46F9 /* AppDelegate.m */; };
+		981B2DA523322AB1009E46F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981B2D9823322AB1009E46F9 /* LaunchScreen.storyboard */; };
+		981B2DA623322AB1009E46F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981B2D9A23322AB1009E46F9 /* Assets.xcassets */; };
+		981B2DA723322AB1009E46F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981B2D9B23322AB1009E46F9 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,33 +43,40 @@
 		1434F15E841E43FB7B348195 /* Pods-RFTangram_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFTangram_Tests.release.xcconfig"; path = "Target Support Files/Pods-RFTangram_Tests/Pods-RFTangram_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3257B75393F7F1D5FF63ED57 /* Pods-RFTangram_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFTangram_Example.debug.xcconfig"; path = "Target Support Files/Pods-RFTangram_Example/Pods-RFTangram_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43476A0B96EED955192810B2 /* Pods-RFTangram_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFTangram_Example.release.xcconfig"; path = "Target Support Files/Pods-RFTangram_Example/Pods-RFTangram_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4F8CC4B7D99A214463E19B61 /* Pods_RFTangram_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFTangram_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F74ECAE5A91E445B0F9081D /* RFTangram.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RFTangram.podspec; path = ../RFTangram.podspec; sourceTree = "<group>"; };
+		5F74ECAE5A91E445B0F9081D /* RFTangram.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RFTangram.podspec; path = ../RFTangram.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RFTangram_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFTangram_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* RFTangram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFTangram-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* RFTangram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFTangram-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RFTangram_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFTangram_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		607E90F7DA379ED2383A4A64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		69DC370596FBDD9EBF68939E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607E90F7DA379ED2383A4A64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		67B9E5D3ED30C5DA04D4E1D1 /* libPods-RFTangram_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFTangram_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DC370596FBDD9EBF68939E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6F22279837FD0CFFB8244561 /* libPods-RFTangram_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFTangram_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		981B2D8A23322AB1009E46F9 /* MockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewController.m; sourceTree = "<group>"; };
+		981B2D8B23322AB1009E46F9 /* EntryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryTableViewController.m; sourceTree = "<group>"; };
+		981B2D8D23322AB1009E46F9 /* TangramSimpleTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSimpleTextElement.h; sourceTree = "<group>"; };
+		981B2D8E23322AB1009E46F9 /* TangramSingleImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSingleImageElement.h; sourceTree = "<group>"; };
+		981B2D8F23322AB1009E46F9 /* TangramSingleImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSingleImageElement.m; sourceTree = "<group>"; };
+		981B2D9023322AB1009E46F9 /* TangramSimpleTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSimpleTextElement.m; sourceTree = "<group>"; };
+		981B2D9123322AB1009E46F9 /* MockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewController.h; sourceTree = "<group>"; };
+		981B2D9223322AB1009E46F9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		981B2D9423322AB1009E46F9 /* TangramMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TangramMock.json; sourceTree = "<group>"; };
+		981B2D9523322AB1009E46F9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		981B2D9623322AB1009E46F9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		981B2D9923322AB1009E46F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		981B2D9A23322AB1009E46F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		981B2D9B23322AB1009E46F9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		981B2D9C23322AB1009E46F9 /* EntryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryTableViewController.h; sourceTree = "<group>"; };
+		981B2D9D23322AB1009E46F9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		981B2DA823322B43009E46F9 /* RFTangram-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RFTangram-Prefix.pch"; sourceTree = "<group>"; };
+		981B2DAA23322E4B009E46F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89747787808CB97CB37CE3A /* Pods-RFTangram_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFTangram_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RFTangram_Tests/Pods-RFTangram_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD17EE697575BDD8230C3854 /* Pods_RFTangram_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFTangram_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				42A5DF6916642693142734A8 /* Pods_RFTangram_Example.framework in Frameworks */,
+				83A4F8C152C0BCE3E65EC56A /* libPods-RFTangram_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +98,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9A8F0B4BA639E181ECA1F2B0 /* Pods_RFTangram_Tests.framework in Frameworks */,
+				91647289DB1FB265D7C8E62A /* libPods-RFTangram_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +113,6 @@
 				A89747787808CB97CB37CE3A /* Pods-RFTangram_Tests.debug.xcconfig */,
 				1434F15E841E43FB7B348195 /* Pods-RFTangram_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +144,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4F8CC4B7D99A214463E19B61 /* Pods_RFTangram_Example.framework */,
-				CD17EE697575BDD8230C3854 /* Pods_RFTangram_Tests.framework */,
+				6F22279837FD0CFFB8244561 /* libPods-RFTangram_Example.a */,
+				67B9E5D3ED30C5DA04D4E1D1 /* libPods-RFTangram_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,28 +153,24 @@
 		6003F593195388D20070C39A /* Example for RFTangram */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* RFAppDelegate.h */,
-				6003F59D195388D20070C39A /* RFAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RFViewController.h */,
-				6003F5A6195388D20070C39A /* RFViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
+				981B2DAA23322E4B009E46F9 /* Info.plist */,
+				981B2DA823322B43009E46F9 /* RFTangram-Prefix.pch */,
+				981B2D9D23322AB1009E46F9 /* AppDelegate.h */,
+				981B2D9623322AB1009E46F9 /* AppDelegate.m */,
+				981B2D9A23322AB1009E46F9 /* Assets.xcassets */,
+				981B2D9723322AB1009E46F9 /* Base.lproj */,
+				981B2D8C23322AB1009E46F9 /* Element */,
+				981B2D9C23322AB1009E46F9 /* EntryTableViewController.h */,
+				981B2D8B23322AB1009E46F9 /* EntryTableViewController.m */,
+				981B2D9523322AB1009E46F9 /* main.m */,
+				981B2D9123322AB1009E46F9 /* MockViewController.h */,
+				981B2D8A23322AB1009E46F9 /* MockViewController.m */,
+				981B2D9323322AB1009E46F9 /* Resources */,
+				981B2D9223322AB1009E46F9 /* ViewController.h */,
+				981B2D9B23322AB1009E46F9 /* ViewController.m */,
 			);
 			name = "Example for RFTangram";
 			path = RFTangram;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* RFTangram-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* RFTangram-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -197,6 +202,33 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		981B2D8C23322AB1009E46F9 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				981B2D8D23322AB1009E46F9 /* TangramSimpleTextElement.h */,
+				981B2D8E23322AB1009E46F9 /* TangramSingleImageElement.h */,
+				981B2D8F23322AB1009E46F9 /* TangramSingleImageElement.m */,
+				981B2D9023322AB1009E46F9 /* TangramSimpleTextElement.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		981B2D9323322AB1009E46F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				981B2D9423322AB1009E46F9 /* TangramMock.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		981B2D9723322AB1009E46F9 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				981B2D9823322AB1009E46F9 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +240,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9B4268ADEB1B310F2D20B215 /* [CP] Embed Pods Frameworks */,
+				98EAFBBBA08A5BC6499689F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,7 +259,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6A4943CFB4950D78AB51AF51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DuRofei;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DR73UB2U9G;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,10 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				981B2DA223322AB1009E46F9 /* TangramMock.json in Resources */,
+				981B2DA623322AB1009E46F9 /* Assets.xcassets in Resources */,
+				981B2DA523322AB1009E46F9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,40 +352,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A4943CFB4950D78AB51AF51 /* [CP] Embed Pods Frameworks */ = {
+		98EAFBBBA08A5BC6499689F6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RFTangram_Tests/Pods-RFTangram_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RFTangram_Example/Pods-RFTangram_Example-resources.sh",
+				"${PODS_ROOT}/../../RFTangram/Classes/RFTangram/Resources/TangramKitVVElementTypeMap.plist",
+				"${PODS_ROOT}/../../RFTangram/Classes/RFTangram/Resources/TangramLayoutTypeMap.plist",
+				"${PODS_ROOT}/../../RFTangram/Classes/RFTangram/Resources/TmallComponent2.out",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TangramKitVVElementTypeMap.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TangramLayoutTypeMap.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TmallComponent2.out",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RFTangram_Tests/Pods-RFTangram_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9B4268ADEB1B310F2D20B215 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RFTangram_Example/Pods-RFTangram_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RFTangram/RFTangram.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RFTangram.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RFTangram_Example/Pods-RFTangram_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RFTangram_Example/Pods-RFTangram_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3FEFB9DC0EAD01FB3C84E92 /* [CP] Check Pods Manifest.lock */ = {
@@ -383,9 +403,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* RFAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RFViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				981B2DA723322AB1009E46F9 /* ViewController.m in Sources */,
+				981B2DA323322AB1009E46F9 /* main.m in Sources */,
+				981B2DA123322AB1009E46F9 /* TangramSimpleTextElement.m in Sources */,
+				981B2DA423322AB1009E46F9 /* AppDelegate.m in Sources */,
+				981B2D9F23322AB1009E46F9 /* EntryTableViewController.m in Sources */,
+				981B2D9E23322AB1009E46F9 /* MockViewController.m in Sources */,
+				981B2DA023322AB1009E46F9 /* TangramSingleImageElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,14 +432,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,10 +440,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+		981B2D9823322AB1009E46F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
+				981B2D9923322AB1009E46F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -513,9 +529,10 @@
 			baseConfigurationReference = 3257B75393F7F1D5FF63ED57 /* Pods-RFTangram_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DR73UB2U9G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RFTangram/RFTangram-Prefix.pch";
-				INFOPLIST_FILE = "RFTangram/RFTangram-Info.plist";
+				INFOPLIST_FILE = RFTangram/info.plist;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +546,10 @@
 			baseConfigurationReference = 43476A0B96EED955192810B2 /* Pods-RFTangram_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DR73UB2U9G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RFTangram/RFTangram-Prefix.pch";
-				INFOPLIST_FILE = "RFTangram/RFTangram-Info.plist";
+				INFOPLIST_FILE = RFTangram/info.plist;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

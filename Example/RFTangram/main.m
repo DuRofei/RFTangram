@@ -1,17 +1,15 @@
 //
 //  main.m
-//  RFTangram
+//  TangramDemo
 //
-//  Created by DuRofei on 09/18/2019.
-//  Copyright (c) 2019 DuRofei. All rights reserved.
+//  Copyright (c) 2017-2018 Alibaba. All rights reserved.
 //
 
-@import UIKit;
-#import "RFAppDelegate.h"
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([RFAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

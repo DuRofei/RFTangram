@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RFTangram'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RFTangram.'
+  s.summary          = 'a alibaba framework demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,9 +29,33 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'RFTangram/Classes/**/*'
+  s.resource  = 'RFTangram/Classes/RFTangram/Resources/*.{plist,out}'
+  s.source_files = 'RFTangram/Classes/RFTangram/**/*.{h,m}'
   
+  s.dependency 'SDWebImage', '~> 5.1.1'
+  
+  s.subspec 'RFVirtualView' do |ss|
+    ss.source_files = 'RFTangram/Classes/RFVirtualView/**/*'
+    ss.dependency 'SDWebImage', '~> 5.1.1'
+    ss.public_header_files = 'RFTangram/Classes/RFVirtualView/**/*.h'
+    ss.subspec 'RFTMUtils' do |sss|
+      sss.source_files = 'RFTangram/Classes/RFTMUtils/**/*'
+#      sss.public_header_files = 'RFTangram/Classes/RFVirtualView/RFTMUtils/**/*.h'
+    end
+  end
+  
+  s.subspec 'RFLazyScrollView' do |ss|
+    ss.source_files = 'RFTangram/Classes/RFLazyScrollView/**/*'
+    ss.dependency 'SDWebImage', '~> 5.1.1'
+    ss.public_header_files = 'RFTangram/Classes/RFLazyScrollView/*.h'
+    ss.subspec 'RFTMUtils' do |sss|
+      sss.source_files = 'RFTangram/Classes/RFTMUtils/**/*'
+      sss.public_header_files = 'RFTangram/Classes/RFLazyScrollView/RFTMUtils/**/*.h'
+    end
+  end
+
+  
+
   # s.resource_bundles = {
   #   'RFTangram' => ['RFTangram/Assets/*.png']
   # }
